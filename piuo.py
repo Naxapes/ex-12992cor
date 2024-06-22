@@ -14,7 +14,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 try:
     # Open the webpage
-    url = 'https://test.naxape.com/admin/PHP/nothing.php'
+    url = 'https://test.naxape.com/Naxp/index.html'
     driver.get(url)
     print(f'Opened {url}')
 
